@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>typo.midnightlamp.black</title>
+   
+   <link>http://typo.midnightlamp.black</link>
+   <description>Everything tech from LOGO to Azure Cloud. But patience and baby steps, first. (Also, we’re still under construction.)</description>
+   <language>en-in</language>
+   <managingEditor> Ram Iyer</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Test post</title>
+	  <link>//test-post</link>
+	  <author>Ram Iyer</author>
+	  <pubDate>2017-03-30T13:58:00+05:30</pubDate>
+	  <guid>//test-post</guid>
+	  <description><![CDATA[
+	     <p>This is a test post to test how PowerShell code works. Minim fugiat anim ex non et cupidatat ex ea ex veniam in exercitation cillum sunt reprehenderit ullamco quis. Adipisicing elit est adipisicing consectetur est ad ad et aute qui. Incididunt ut ipsum exercitation voluptate labore magna ullamco elit esse ex sint amet officia laboris elit cillum officia. Velit consectetur voluptate do proident voluptate voluptate officia dolor elit nulla pariatur consequat irure dolor sit nulla dolor.</p>
+
+<p>Laboris labore adipisicing reprehenderit voluptate elit tempor id officia laborum consectetur veniam reprehenderit esse occaecat esse. Laborum laboris veniam adipisicing sint elit mollit quis nostrud fugiat laboris officia commodo eu. Officia fugiat consectetur occaecat eu eu magna ea sint irure magna cillum non sunt laboris culpa irure minim. Nisi aliquip eu ad reprehenderit anim consectetur anim irure eiusmod nulla culpa aliqua voluptate et sunt est in. Et do aliquip aliquip id dolor sint tempor cillum culpa deserunt sunt sint dolor officia.</p>
+
+<figure class="highlight"><pre><code class="language-powershell" data-lang="powershell"><span class="k">param</span><span class="o">(</span>
+    <span class="o">[</span>parameter<span class="o">(</span> Mandatory <span class="o">=</span> <span class="nv">$true</span>, HelpMessage <span class="o">=</span> <span class="s2">"Enter a year between 1900 and 2100:"</span> <span class="o">)]</span>
+    <span class="o">[</span>ValidateRange<span class="o">(</span>1900,2100<span class="o">)]</span>
+    <span class="o">[</span><span class="kt">int</span><span class="o">]</span><span class="nv">$myYear</span>
+<span class="o">)</span>
+<span class="nv">$names</span> <span class="o">=</span> <span class="s2">"Rat"</span>,<span class="s2">"Ox"</span>,<span class="s2">"Tiger"</span>,<span class="s2">"Rabbit"</span>,<span class="s2">"Dragon"</span>,<span class="s2">"Snake"</span>,<span class="s2">"Horse"</span>,<span class="s2">"Goat"</span>,<span class="s2">"Monkey"</span>,<span class="s2">"Rooster"</span>,<span class="s2">"Dog"</span>,<span class="s2">"Pig"</span>
+<span class="nb">Write-Host</span> <span class="nv">$myYear</span> -ForegroundColor White -NoNewline
+<span class="k">if</span> <span class="o">(</span> <span class="nv">$myYear</span> -lt <span class="o">(</span> <span class="nb">Get-Date</span> <span class="o">)</span>.Year <span class="o">)</span> <span class="o">{</span>
+    <span class="nb">Write-Host</span> <span class="s2">" was"</span> -NoNewline
+<span class="o">}</span> <span class="k">elseif</span> <span class="o">(</span> <span class="nv">$myYear</span> -gt <span class="o">(</span> <span class="nb">Get-Date</span> <span class="o">)</span>.Year <span class="o">)</span> <span class="o">{</span>
+    <span class="nb">Write-Host</span> <span class="s2">" will be"</span> -NoNewline
+<span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+    <span class="nb">Write-Host</span> <span class="s2">" is"</span> -NoNewline
+<span class="o">}</span>
+<span class="nb">Write-Host</span> <span class="s2">" a Chinese year of the "</span> -NoNewline
+<span class="nb">Write-Host</span> <span class="nv">$names</span><span class="o">[</span> <span class="o">(</span> <span class="nv">$myYear</span> - 1900 <span class="o">)</span> % 12 <span class="o">]</span> -ForegroundColor White</code></pre></figure>
+
+<p>Commodo elit eiusmod nostrud eu laboris eiusmod occaecat sint quis non consectetur. Dolore do laboris id enim ut mollit culpa pariatur sunt veniam et enim quis commodo incididunt dolore. Lorem officia est dolor ut velit non occaecat sunt eu. Voluptate ea qui eu duis et sit magna anim in laboris.</p>
+
+<p>Aliquip sit labore cupidatat sint esse exercitation anim ut ut tempor. Veniam proident magna Lorem dolor do cillum eiusmod magna minim id minim. Pariatur quis cupidatat est quis aliqua aliqua tempor commodo proident incididunt duis pariatur esse ipsum enim qui. Non officia cupidatat non ad nulla Lorem quis voluptate velit dolore. In elit consequat elit eu culpa sunt aute enim laborum do excepteur duis reprehenderit ullamco. Ex do nostrud adipisicing id elit consectetur enim ad ea labore veniam anim qui qui. Proident dolore proident id reprehenderit cupidatat culpa labore ipsum duis amet sint.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Why I Never Became a Billionaire…</title>
+	  <link>//why-i-never-became-billionaire</link>
+	  <author>Ram Iyer</author>
+	  <pubDate>2014-09-15T15:12:00+05:30</pubDate>
+	  <guid>//why-i-never-became-billionaire</guid>
+	  <description><![CDATA[
+	     <p>You see, I’m a big man, perhaps. So many Nigerian princes have known me personally, who inherited loads and loads of wealth, BBC and other such giants have sponsored so many lotteries and I have won so many, but I never thought of claiming the money. I have always been about getting into social service (though I work for an IT services giant), and I love being around children who like to learn. I would like to be a founder of an educational society in future that would provide free education to people of any age. These billions of Great Britain Pounds would have helped me achieve my dream in months!</p>
+
+<p>How foolish was I to ignore those emails! They contained so many genuine forms that I just had to fill, so many genuine logos, so many holographic stickers, so many email addresses from the public domains, and oh God, so much money—and why? I was lazy to fill out those forms. Because almost always, I received those while at work, so I couldn’t go about doing that filling thingy on my phone (though I have Office on it)—you know, it isn’t polite to do that kinda stuff while in the middle of an important system upgrade call!</p>
+
+<p>And about the Nigerian princes? Yeah, the point is that these princes being so resourceful (both in terms of physical resources, and men), are so humble that they don’t call themselves by name. They are people of such high values, and whoa, the generosity! They are so humble that they almost always, accept that they (or their fathers) stole a lot of wealth from various countries, including the US and the UK. Yet, I was stupid enough to procrastinate the filling of the form, and then to forget completely about it—every single time.</p>
+
+<p>Alright, to those who got the joke above, ‘Helloooo!’, and to those who didn’t, it was a joke. To those who got the joke, you may wanna stop reading because what follows is what you probably already know. However, if you choose to read, you may learn a bit more about this stuff. More on the technical stuff on my core technical blog which I’ve been planning for quite a while hey, who gets the time!</p>
+
+<p>Getting serious now:</p>
+
+<h5 id="first-rule-about-reality-what-seems-too-good-to-be-true-is-indeed-too-good-to-be-true">First rule about reality: what seems too good to be true, is indeed too good to be true</h5>
+<p>Now, if you know that mantra, you would seldom get caught in crap (read scams) like this. Yes indeed, some things might not seem too good to be true, but still, kinda off place. When it comes to those things, I can help you a bit with this post. Read on.</p>
+
+<h5 id="there-are-no-nigerian-princes-that-are-willing-to-share-their-wealth-with-random-people">There are no Nigerian princes that are willing to share their wealth with random people</h5>
+<p>Sorry to break the bubble, but you are random, and so am I. You wouldn’t share a ten dollar bill with a beggar willingly. I wouldn’t share a hundred rupee note with a person that I don’t know. Now I may be earning a few bundles of hundred rupee notes every month, but I wouldn’t like to share a note with some random guy, even though it might make less than 1% of my monthly earnings. I mean why should I? So remember this, there’s no Nigerian prince willing to share money with you.</p>
+
+<h5 id="it-is-spam-if-it-is-spam">It is spam if it is spam</h5>
+<p>Now, yes, you don’t really check your spam box. But there are some who do, then see this kind of message, and then think, “Holy crap! Is this real?” No, it is most certainly not. Gmail, or Outlook, or (sometimes) Yahoo, or pretty much any other public email service provider, knows what he’s doing when he categorises this message as spam. Yahoo’s spam filters are almost always sleeping, but still. Seldom does a situation arise when there’s a false-positive spam categorisation. If you find this kind of message in spam, know that it is rightly categorised as unwanted (and sometimes dangerous).</p>
+
+<h5 id="if-you-didnt-ask-for-it-you-dont-get-it">If you didn’t ask for it, you don’t get it</h5>
+<p>Don’t misunderstand this to mean that you need to claim what you are being offered, it’s the contrary. What I mean is that e-mail addresses aren’t selected at random for lottery that you didn’t register for. Ergo, if you didn’t ask for it, you are not going to get it.</p>
+
+<p>Now that we are clear with the three simple rules, let’s move forward. I’ll show you an example and we’ll talk about it.<br />
+I happened to go into my inbox to see if I’ve received a link for my forgotten password, and happened to check the spam folder as well for false-positive categorisation (that happens sometimes). I happened to see this interesting message from <strong>United Nation Development Programme</strong>. I was “Meh…” at first, but then I thought this is something good to talk about, and brought it here.</p>
+
+<p>The subject of the message just read “Congrats”, and there was no body of the message. Now I laughed hard. You know, there was a time (not so long ago), when these emails contained half as much content in the body as this long post. But then, 99.9% of the time these spam filters chucked out these messages, and these messages never reached the desired recipients. So these smart spammers found a new way—a Word document. They put everything into a Word document, and started sending the messages with blank body. They were successful for a while before these providers started scanning the attachments as well.</p>
+
+<p>These attachments typically are named like “Form 21”, or “Claim form”, or “Verification Document”, and stuff like that. They seem really legitimate to day-to-day office-goers and people who aren’t much aware of IT. Every government has this concept of numbered forms that do not have proper lookup to cross-verify. As an example, we can take the Income Tax Department of India, and the very commonly known forms, Form 16 and Form 12B. Now a common man would think that there is some kind of official arrangement done for this kind of claims. Sadly, no.</p>
+
+<p>Now let us go back to the example I was talking about.</p>
+
+<p>So I saw this Word document in it called <code class="highlighter-rouge">FORM1</code>. I was like “Yay, another form!” I remember one of my clients who forwarded such an email to me asking, “You don’t think this is legitimate, do you?” and I was like “Not unless you have lots of money in your bank account that you don’t mind losing, Mr Doe. LOL.”<br />
+I opened the form, and it claimed to have come from BBC Lottery Board (I wonder when that was set up—there’s a lottery programme, but no dedicated board). It had an address, and telephone number and all that; legitimate to a common eye! It had the BBC website URL, and an email address—but there was something odd; the email address wasn’t <code class="highlighter-rouge">@bbc.co.uk</code>, but <code class="highlighter-rouge">@hotmail.com</code>! When did BBC become so poor to not be able to afford their own an email-enabled domain? When did they run so bankrupt that they couldn’t afford, say, like £700 to email-enable their domain while they claim they could send me £500,000.00? Hey, I have an email address of my own domain! LOL! So the next point to note: Any such email that asks you to send emails with details to any of <code class="highlighter-rouge">gmail.com</code>, <code class="highlighter-rouge">outlook.com</code>, <code class="highlighter-rouge">hotmail.com</code> or any such public addresses, mark the message as spam. I’ll tell you why it is important to <em>mark such messages as spam later</em>.</p>
+
+<ul>
+  <li>No form has any kind of letter format and a letter embedded in it coz forms have a different purpose altogether.</li>
+  <li>Forms that have a legitimate source (such as BBC in this case), come with proper logo, formatting, and other aesthetics.</li>
+  <li>Forms from legitimate sources do not come in an email without a body.</li>
+  <li>The embedded images do not have hyperlinks in them, to some site other than the source (in this case, the hyperlinks should’ve been to BBC, but they were to Wikipedia—real sloppy spammer, I’d say).</li>
+  <li>“Dr Timmy Jones” doesn’t resolve to serial killers (I loved this part).</li>
+  <li>The watermarks are well-embedded and current. And again, forms do not come by email. If nothing, they would give you a link to <code class="highlighter-rouge">bbc.co.uk</code> and it could be an online form with a signed SSL certificate (check the browser’s address bar—it should be green).</li>
+  <li>There’s no such thing as <code class="highlighter-rouge">bbc&lt;addanythinghere&gt;@hotmail.com</code>.</li>
+</ul>
+
+<p>Now to why you should <em>mark such email as spam</em>. When you mark a certain email as spam, the spam filters at your providers, such as Google, or Microsoft, or AOL, check for text patterns in them, and ensure such content don’t land in others’ mailboxes in future. These filters <em>learn</em> over time, based on the information we feed. So when you receive such emails, don’t just hit the <code class="highlighter-rouge">Delete</code> button, but mark it as spam.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Do you still CMD?</title>
+	  <link>//do-you-still-cmd</link>
+	  <author>Ram Iyer</author>
+	  <pubDate>2014-07-05T15:55:00+05:30</pubDate>
+	  <guid>//do-you-still-cmd</guid>
+	  <description><![CDATA[
+	     <p>Hey there, long time no see! Yeah right, you and I both have a full time job that only gives us time enough to watch an episode of <em>Man vs Wild</em>! Alright, I’ll get to the point.</p>
+
+<p>So the question was, how many of us use the good old <em>Command Prompt</em> these days? How many of us have switched to <em>PowerShell</em>? How many of us still type in short commands in the <em>Run</em> window to launch applications? Honestly, I still open the Run prompt and type in <code class="highlighter-rouge">powerpnt</code>, <code class="highlighter-rouge">chrome</code>, <code class="highlighter-rouge">iexplore</code>, <code class="highlighter-rouge">appwiz.cpl</code>, <code class="highlighter-rouge">gpedit.msc</code>, etc. I don’t know why, but I like to launch stuff this way. My brother still stares at me when I launch Notepad by saying <code class="highlighter-rouge">notepad</code>. Of course, I do admit, using <code class="highlighter-rouge">Run</code> is kinda old-school in this age of voice control.</p>
+
+<p>Deviating a little bit, I remember one of my friends posting a comment on Facebook, when I updated my status about my progress with learning PowerShell, stating, “Oh, the new Command Prompt in Windows 7?” That’s a major misconception when it comes to PowerShell. I don’t blame him, for he isn’t into the Windows domain—he’s more of a (non-Microsoft) Cloud Backup guy, but what he said is a general misconception among people—they think PowerShell is the same as Command Prompt. Fact: it isn’t. We’ll discuss how, some other time.</p>
+
+<p>Coming back to using the Command Prompt, I ran a verbal mini-survey, on a bunch of my buddies from different domains, about their usage of the Command Prompt. Turns out, in the current environment, they “are very comfortable with the use of <code class="highlighter-rouge">CMD</code>” I smiled. They added that they use it “to find the IP address”; one of them even added, “so cool, huh!” Indeed! I thought for a second, had they known that they could simply type in <code class="highlighter-rouge">ip address</code> in their Chrome address bar, it could give them their IP address, would it then mean that they wouldn’t use the Command Prompt at all? I wouldn’t know unless I tell them this alternate way of finding their IP address which would seem “cooler”.</p>
+
+<p>Anyway, so that’s the outlook that common people have with the Command Prompt. There’s this another interesting thing one of my friends said, “Don’t you think it is like dumb to use the Command Prompt when you have your interface?” By that, she meant the Graphical User Interface. Well, I wouldn’t call it dumb to use the Command Prompt when you have your GUI—a simple example, your IP address. Finding the IP address using GUI isn’t a small task on Windows. This is how you do it: <code class="highlighter-rouge">Start\Control Panel\Network Connections\Local Area Connection\Properties\Internet Protocol (TCP/IP)\Properties</code>. Smart!</p>
+
+<p>Some of us have another opinion about the Command Prompt, that “it is dull”. Sure, agreed that it looks pretty dull with the black background and a grey foreground (no, it isn’t white—try it for yourself). The interface is pretty dull and geeky, but hey, it comes in handy when you don’t have to go all <code class="highlighter-rouge">Control Panel\bla-bla\bla-bla-bla\bla-bla-bla-bla...</code>!</p>
+
+<p>And some think it is “showing off” when we use the run prompt and type in <code class="highlighter-rouge">control</code> when we need to go to the Control Panel or <code class="highlighter-rouge">appwiz.cpl</code> when we, say, wanna uninstall <em>Citrix Receiver</em>? “Convenience”, that’s the word. Personally, I’m very comfortable with the keyboard and have a pretty good typing speed (thanks to QWERTY everywhere), and I use <em>a lot</em> of keyboard shortcuts. I love the keyboard and prefer using it instead of the touchpad to do a lot of stuff like this. Like say I wanna turn this part of the sentence to Consolas 10pt, font colour: 85% grey, opt not to check spelling or grammar, set the line spacing to single, set to “don’t hyphenate”, all I do is, press <code class="highlighter-rouge">Ctrl + Alt + C</code>! (Don’t try that yet, or you might get the © symbol; you need to manually configure this one, once, in Word, before you can get the result).</p>
+
+<p>And why am I writing this? Just to say that using the Command Prompt is an efficient thing to do when you need to get work done quickly, and its purpose is not to just check the IP address of your computer (and that there’s an alternative to that too). The Command Prompt or even the Run prompt is a great thing to have, when you need to launch specific programs, or even shut down a remote computer. Seriously! I’ll give you a short list of the cool things that you can do with the Command Prompt.</p>
+
+<p>Before that, I’ll narrate to you a situation that I got stuck in, one day. I had launched this Command Prompt window through Citrix <em>Web Interface</em> once to get a list of all the members (recursive) in a security group in our organisation. After this, I wanted to launch a session of <em>Excel</em> from the same server because the license had expired on my local machine. I re-launched the WI and thanks to some cookie crap in the current session of Internet Explorer (which I couldn’t close because there was another process running in the background), that the WI said, “invalid session” or something. I tried launching another session of IE, but that didn’t work either. Stuck? Nope! I switched to the Command Prompt Window, typed in <code class="highlighter-rouge">excel</code> and bingo!</p>
+
+<p>Alright, as promised, here are some of the cool general-use commands that you can use from the Run prompt:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Function</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">calc</code></td>
+      <td>Launch the Calculator</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">charmap</code></td>
+      <td>View the Character Map</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">chkdsk</code></td>
+      <td>Launch the Check Disk Utility</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">cmd</code></td>
+      <td>Launch the Command Prompt</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">control</code></td>
+      <td>Go to the Control Panel</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">timedate.cpl</code></td>
+      <td>Open the Date and Time Properties</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">cleanmgr</code></td>
+      <td>Launch the Disk Clean-up Utility</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">firefox</code></td>
+      <td>Launch Mozilla Firefox</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">fonts</code></td>
+      <td>Open the Fonts Folder</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">iexplore</code></td>
+      <td>Launch the Internet Explorer</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">logoff</code></td>
+      <td>Log out of Windows</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">moviemk</code></td>
+      <td>Launch the Movie Maker</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">mspaint</code></td>
+      <td>Launch Microsoft Paint</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">control netconnections</code></td>
+      <td>Open Network Connections</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">notepad</code></td>
+      <td>Launch the Notepad</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">osk</code></td>
+      <td>Launch the On-Screen Keyboard</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">perfmon</code></td>
+      <td>Launch the Performance Monitor</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">control printers</code></td>
+      <td>Open Printers and Faxes (under Control Panel)</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">mstsc</code></td>
+      <td>Launch the Remote Desktop application</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">control schedtasks</code></td>
+      <td>Open Scheduled Tasks</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">services.msc</code></td>
+      <td>Open Services</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">shutdown</code></td>
+      <td>Shut down the computer</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">msinfo32</code></td>
+      <td>View the System Information</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">taskmgr</code></td>
+      <td>Launch the Task Manager</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">explorer</code></td>
+      <td>Launch the Windows Explorer</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">magnify</code></td>
+      <td>Launch the Windows Magnifier</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">wmplayer</code></td>
+      <td>Launch the Windows Media Player</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">write</code></td>
+      <td>Open WordPad</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Oh, if you’re wondering how <code class="highlighter-rouge">explorer</code> could come in handy when you already have it running, imagine that you got the message that “Windows Explorer has encountered a problem and needs to shut down”! No, don’t panic! Just press <code class="highlighter-rouge">Ctrl + Shift + Esc</code> (<code class="highlighter-rouge">Ctrl + Alt + Delete</code> seems like a death command combination to some who’ve used the pre-XP versions of Windows. Both these combinations open the <em>Task Manager</em>) Oh, and trust me, nothing goes wrong by opening the Task Manager; unless you go to the <em>Processes</em> tab and kill some unrelated-but-very-important process that brings down the whole system. Opening the Task Manager <em>doesn’t kill the computer</em>, like some people think. If you’re scared to use the key combination (when Explorer is still running), right click on the <em>Taskbar</em> and select <code class="highlighter-rouge">Task Manager</code>.</p>
+
+<p>Now, click on <code class="highlighter-rouge">Run New Task</code>. You’ll now get the Run prompt; type in <code class="highlighter-rouge">explorer</code> and hit <code class="highlighter-rouge">Enter</code>. There, you have your beloved Windows Explorer in front of you—aww… look at those moist eyes on seeing the Taskbar again!</p>
+
+<p>Would you use the Command Prompt now?</p>
+
+<p>Cheers!</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>From LOGO to TouchDevelop (Part 2)</title>
+	  <link>//from-logo-to-touchdevelop-part-2</link>
+	  <author>Ram Iyer</author>
+	  <pubDate>2014-06-13T12:00:00+05:30</pubDate>
+	  <guid>//from-logo-to-touchdevelop-part-2</guid>
+	  <description><![CDATA[
+	     <p>Zoom, a few years passed and we were probably a generation or two ahead of the computers back in 1997 now, and we had computers with Paint on them. As we memorised <code class="highlighter-rouge">Start\Programs\Accessories\Paint</code>, we looked at the mouse on all the computers and were happy about it. Now all the computers were almost the same as… oh wait… Computer—1 had speakers this time and it was now called <em>Multimedia Computer</em>! We remembered that hadn’t happened before the school closed for the summer in 1999! Oh wait, and what the hell was that thing that had a button which slid out a tray…</p>
+
+<p>We asked our computer teacher about it. He said “it is for a disc called a Compact Disc. A CD.” We didn’t know what it was back then. Then he showed it to us. Only some guys in the class were allowed to work on that computer (no, not me). That had something cool, called <code class="highlighter-rouge">Office</code>. It let us create documents like our text book, it had pictures that could move on their own, and other cool stuff like that. But then hey, we weren’t allowed to touch all that.</p>
+
+<p>By then we had also got <code class="highlighter-rouge">BASIC</code> in our school and we were being given lessons on it. <code class="highlighter-rouge">LOGO</code> was fun, but that could only create lines and move the turtle. But <code class="highlighter-rouge">BASIC</code> could do other cool stuff like calculations! And hey! Floppy Disks! Those days owning a Floppy Disk was a great deal! We used to hand-craft covers for it so as to protect it. They were in all different colours—red, blue, yellow, white, green, etc., apart from black (hey, Lumia?). I liked the black ones, though (duh) and so mine was a black one. It was ₹15–60 per disk those days, I guess. The hand-crafted covers were all cool with hand-drawn graphics on them and some of those had a Styrofoam lining inside. LOL</p>
+
+<p>They were all 3½″ disks. None of us owned a 5½″ disk those days, but there were a couple of them in the computer lab. They were pretty large and we were happy we didn’t have to use it—they could bend! Also, we imagined to have our school notes and text books loaded onto the floppy disks! Little we knew the following years when flash drives would be born and every common man would have one, with <em>way more</em> memory than a floppy disk.</p>
+
+<p>Anyway, those days were indeed great. It was fun.</p>
+
+<p>A couple of years later or so, we had computers with GUI on all computers, and all of them had Windows 98 in them, except Computer 1, which was to get Windows XP. We used to talk of touch screens like some sort of magic, in those days. We knew some enterprises and others had touch screens back then, and there were those “light pens” and all which helped users interact with computers, but we as kids hadn’t seen any of them. It was really difficult for us to imagine how the screens knew where the finger was! It would be difficult for us to imagine now how difficult it was back then to imagine what a touch screen looked like and how it worked, but yes, I remember it was tough to imagine all that back then. Hell, who had yet studied about resistance and capacitance yet in electronics! We were in the seventh grade or so back then. We learnt of basic electronics like the diode and all only in the 12<sup>th</sup> grade.</p>
+
+<p>We had then, read in the <em>Digit</em> magazine that there would be palmtops and other compact computers in the future. We had also learnt that they would be able to perform many tasks that though weren’t as complicated as normal computers those days (ha ha), but that they would be able to perform things like connecting to the Internet and communicate freely. Why, they said we could even edit presentations in them! Our teacher said they would cost around ₹15,000 (then $320) or so. It was big money for us students, but we did imagine getting those computers.</p>
+
+<p>And whoosh, more years passed!</p>
+
+<p>When I bought my first touch screen phone (Nokia 5233) in 2010, it was an evening of pure excitement. I went to Big Bazaar with my uncle—yes, the one mentioned in the last post: my computer uncle—and bought the piece of hardware. Wow, wasn’t it amazing when I had my own touchscreen smartphone! The response wasn’t as great as the phones of these days, given that it was a resistive touch screen, but it was still great. It did all that the palm computer that the magazine had promised—sent emails, captured pictures, facilitated Internet messaging (eBuddy, Nimbuzz, anyone?), allowed web browsing (Opera was great on Symbian), and all that—the price? ₹6,476 (about $140 then).</p>
+
+<p>Now when I look at my beautiful Lumia, with a smooth ultra-responsive capacitive touchscreen that works even with the gloves on, the beautiful metro graphics, and the strong Gorilla Glass™, I give those days an arrogant, but loving smirk. And, when I see that we can now program on our phones, I wonder if this was ever expected those days by a common man! I used a bit of TouchDevelop, went through the tutorial and downloaded the free e-book. Well I must say, aside from getting reminded of the turtle in <code class="highlighter-rouge">LOGO</code>, it was a moment of wonder, even for a semi-neek like me to see programming happening on a smartphone! Hello!</p>
+
+<p>I wonder where all this will go in the next generation (18 months as said by one of the big heads at Intel). Umm… fully aware creepy assistant? Automatic cab booking for the next flight I need to take? Automatic downloading of material for my next class on Cloud Technology? Prediction of the incentive we would get in the next fiscal year by judging the performance of the company I work for? Hmm… I would love all of that!</p>
+
+<p>For now, wishing to see Cortana and 3D touch soon on my Lumia, hope you have a great day!</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>From LOGO to TouchDevelop (Part 1)</title>
+	  <link>//from-logo-to-touchdevelop-part-1</link>
+	  <author>Ram Iyer</author>
+	  <pubDate>2014-06-12T14:03:00+05:30</pubDate>
+	  <guid>//from-logo-to-touchdevelop-part-1</guid>
+	  <description><![CDATA[
+	     <p>I do not remember the first time I saw a computer. It was perhaps in my dad’s office in 1995. He had described a computer to be “a set of boxes that is capable of doing a lot of magic”. Well, how else could you define something like that to a five- or six-year-old kid who hadn’t yet seen one? The kid hadn’t known what a photocopier or a Xerox machine looked like either. The kid, at the time didn’t understand a thing when his dad, his mum and his uncle spoke about Telex and fax. The names seemed quite complicated to him and he thought them to be some of those magical <em>mantras</em> that could let people do what they can’t on their own.</p>
+
+<p>During summers, I used to visit my granny’s with my parents (mostly mum, coz dad never got that long a leave—two months: you must be kidding me). My uncle (the one mentioned above) once took me to his office. When I was happy playing with a broken telephone dial at his assistant’s desk, which had now gotten replaced by a simpler-to-use interface—the buttons—my uncle called out from his cabin, “Kiddo, come in, I have something interesting to show you!”</p>
+
+<p>The moment I stepped in, I was confused—he ushered me to his computer! I didn’t know how it worked or I didn’t know what to do with it. He sat me down and told me that he’d loaded a game on it. I was partly excited, but majorly anxious. “What do I do to play?”</p>
+
+<p>“It is simple. Do you see these keys? These are the ones that will control your car…” and he gave me a short tutorial on how to drive it without hitting the barricades. It was Indy Car! I was fascinated! I felt that I was really behind the wheels, driving a race car! Come on! At that time, graphics didn’t really matter. I know it was a big deal for the designers back then to create something as amazing as that, which could run on a computer that had zero graphics card memory! But then it was just a DOS game as six-year-olds of today would say—hundred bucks say they don’t even know what DOS is.</p>
+
+<p>After a year or so, when I went to my uncle’s office again, I saw something called Windows 95. Well, that had cool things like screensavers which could play on while my uncle, aunt and I had lunch. I used to wait for the timeout so that the golden clock would appear on the screen and would actually tick! This time, he had another cool game on the computer: Dangerous Dave! It was amazing how the guy could jump and dodge fire. Simple, but looked a lot elegant—hey, everything was in colour! And then he had one more: Paratroopers! Wow, those days!</p>
+
+<p>A couple of years passed and we were in a different place—a remote one this time. We were in Kodinar in the Junagadh district of Gujarat. Dad was with Ambuja Cements Ltd., and his was a cool office. Someone there was talking about Windows 95 and how Windows 98 was better. I didn’t understand what that was. It was a big deal of a difference for the people out there at that time (now I know when I try to tell people how Windows 8.1 Update 1 is better than Windows 8). In school, we were made to sit in front of a computer for the first time—in the 3rd grade. My school’s computer lab was still the traditional DOS one, and everything had to be done with commands. Well, to say the least, we weren’t yet allowed to meddle with commands, so they would launch a session of <code class="highlighter-rouge">Logo</code> and hand over the computer to us. <code class="highlighter-rouge">Logo</code> was a program that helped kids build logic and understand basic programming concepts, with graphics (that’s all we knew back then). For people who want to learn more on this, <a href="https://en.wikipedia.org/wiki/Logo_(programming_language)">here it is on Wikipedia</a>.</p>
+
+<p>It was nice to have that turtle run around and do things. To us students, though <code class="highlighter-rouge">FD 60</code> and <code class="highlighter-rouge">RT 90</code> were all cool, there was something cooler! Computer 1 in the lab was one that had the mouse! I used to take pride telling some of my classmates (whose dads didn’t have computers at their desk yet) how the mouse is cool! It was epic, those days, to us kids.</p>
+
+<p>Zoom, a few years passed and we were probably a generation or two ahead of the computers back in 1997 now, and we had computers with Paint on them. As we memorised <code class="highlighter-rouge">Start\Programs\Accessories\Paint</code>, we looked at the mouse on all the computers and were happy about it. Now all the computers were almost the same as… oh wait… Computer 1 had speakers this time and it was now called <em>Multimedia Computer</em>! We remembered that it hadn’t happened before the school closed for the summer in 1999! Oh wait, and what the hell was that thing…</p>
+
+<p>To be continued…</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>The SMACk!</title>
+	  <link>//the-smack</link>
+	  <author>Ram Iyer</author>
+	  <pubDate>2014-04-26T02:18:00+05:30</pubDate>
+	  <guid>//the-smack</guid>
+	  <description><![CDATA[
+	     <p>I was recently thinking about how to educate people like my uncle about crappy Facebook posts that force you to share stuff, and I figured, heck, why not write a letter to the Almighty himself! How many of you have <em>not</em> seen posts that said, “Share this in 9 seconds to receive a good news; ignoring would entitle you to nine years of bad luck”?</p>
+
+<p>Well, while I don’t see many heads nodding, I do see smiles through your screens, though.</p>
+
+<p>So here was my  letter:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">Dear God,
+
+I am Ram. I wanted to tell you how funny it is when I see these stupid posts on Facebook with photos of your supposed forms, your supposed writings (which are mostly products of imagination of great philosophers), etc. and how they say you need to share them within so many seconds, and if we don't, we are entitled for bad stuff.
+
+How I wish you could come in person, smack the said on his/her head and say, "Idiot, go to work, earn money, have a good time, do charity, make people smile and earn my blessings - how's a Facebook status update going to make me love you?"
+
+Awaiting the day they realize how real things are real, and stupid stuff is indeed stupid.
+
+Yours truly,
+Ram Iyer</code></pre></figure>
+
+<p>I left it on the altar at home, and sat there all night (mostly slept), meditating upon the Ultimate Energy. When I woke up, to my surprise, I had a letter in front of me, in a colour different from the paper I used to write mine. I opened it, still trying to figure out if it was real or if I were dreaming.</p>
+
+<p>It read:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">Dear Ram,
+
+I was glad to see a physical letter after eons. It was unnecessary of you to stay awake all night, sitting in a Padmasana in front of me the whole time; you could've just emailed me!
+
+What are you gasping at? What do you think, when you humans can have awesome email services like Outlook.com and Gmail, why can't we have one? Anyway, since you chose the tougher path, I wish to keep my email address a secret. Moreover, my mailbox is getting spammed these days since I started monitoring the thugs on sites like eBay and Jabong. Well, that's not what we're discussing, is it? In fact, I'm sure you're surprised to see a reply from me -- that's evident. Worry not, my son, for I'll tell you what I want to, whether you like it or not. Let's get to the point, enough chatter.
+
+You see, even before you humans began thinking of bulk messages, I'd pioneered the ability to gather all data from everyone in the world, and crunch the numbers and get to a point where my applications like Chitragupta could get Yama the summary of what you did throughout your life -- I'd promised everyone of you that everything that you do, good and bad, will be accounted. How do you think I achieved that? Heard of Big Data? LOL that was my idea. Someone saw the old blueprints of the implementation of it here, and took it to the earth during his next birth. I know who the person is, and how he did it; I thought, well, let the humans taste a bit of technology there -- it's outdated here anyway!
+
+So yes, what you said about Facebook, and its use is real, not fiction. I'm sure you've heard of the term SMAC (yes, Social, Mobile, Analytics and Cloud). When someone uploads a picture of mine and asks you to share it, you must close your eyes, remember me, and share it - no questions. I do see these things -- well, not see, per se -- I get the crunched numbers and all those things actually get added to your account. Before you were born, these guys over here at the administration section added an entry into their database, with a certain number tagged to you. This was what was used to create your very DNA, and your fingerprints, your tongue print, your retinal image, and all of that, is like what you guys call QR codes. You are linked to the master database called... well, you may call it the UniverSQL. From the point you took your first breath, your account began getting and losing credits. What I wish to explain is way too complicated for you to understand, and I might tend to go into the details - my clock just reminded me that you have only ten more minutes of my time.  So let's make it short.
+
+We guys have Facebook accounts, we see what you share. Your Facebook ID is tagged to your universal ID here. We are into SMAC in the following way:
+
+Social: Whenever you hear the word Social, you tend to think of Facebook - too bad. We're as well on Twitter, Instagram, all email services and all other social networks, as Facebook. Social networks are where we see the market for each of my names - Jesus, Allah and Krishna are the names that score the highest, followed by Shiva, Buddha, and Albert Einstein (seriously), who try hard to keep pace. I'll tell you how I got these numbers later.
+
+Mobile: Again, when I say mobile, I'm sure you're going to think of apps; wrong. Not just apps, I'm on SMS, calls, wallpapers why, even Caller Tunes! People can reach me through any of the mobile channels -- 2G, 3G, 4G...you name it!
+
+Analytics: Let me tell you how we use analytics. When I said your profiles are connected, think of it as your Microsoft accounts hub. All your social and mobile channels are clubbed into the cloud of services. That cloud, in turn is what holds all the information about all your accounts, including your cell phone number. Let's get into the cloud in the next session. When you perform any activity, for example, share my pic on Facebook, the clock starts as soon as you see the pic (Facebook has that kind of technology -- they use it to measure their ad usage, but our engineers have managed to tweak it to measure the time since you saw my pic, to the time when you shared it). When you share it, our super advanced image analyzers in our search engines search for the necessary segments in the image and assign tags to it. These tags then increase the counts on the key terms in our databases and 'analyze' the usage. These also, in turn get tagged to your account, and much like how Amway works, you get points for sharing it, and whenever someone sees that image, liability gets added to their account (now they need to share it, you see), and you get credit. All this is crunched and then we derive the numbers against different accounts, and then we send rewards (think of the Bing Rewards program).
+
+Cloud: Yeah, I already told you. The cloud contains all your data. Most of the data that our Huge Data (that's the name we follow here) gets is from the cloud. These have even your WhatsApp account, Hike account, why, even Telegram connected (yes, we can crack it - NSA is just a kid). Your account is stored in the cloud too, of course! So you share a Good morning message with your friends, no credit. You share links to news articles, no credit. When you share pics of the supposed forms of me or writings about me, you get credits! In short, I know what exactly you share, and sharing and not sharing stuff gets you good and bad luck respectively!
+
+It is not they who need an eye-opener, son; it is you. Wake up, the world knows what exactly you're doing!
+
+Get the SMACk!
+
+Yours,
+Well, what the hell</code></pre></figure>
+
+<p>…and, I woke up.</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

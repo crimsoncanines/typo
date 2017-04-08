@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>typo.midnightlamp.black</title>
+   
+   <link>http://typo.midnightlamp.black</link>
+   <description>Everything tech from LOGO to Azure Cloud. But patience and baby steps, first. (Also, we’re still under construction.)</description>
+   <language>en-in</language>
+   <managingEditor> Ram Iyer</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Do you still CMD?</title>
+	  <link>//do-you-still-cmd</link>
+	  <author>Ram Iyer</author>
+	  <pubDate>2014-07-05T15:55:00+05:30</pubDate>
+	  <guid>//do-you-still-cmd</guid>
+	  <description><![CDATA[
+	     <p>Hey there, long time no see! Yeah right, you and I both have a full time job that only gives us time enough to watch an episode of <em>Man vs Wild</em>! Alright, I’ll get to the point.</p>
+
+<p>So the question was, how many of us use the good old <em>Command Prompt</em> these days? How many of us have switched to <em>PowerShell</em>? How many of us still type in short commands in the <em>Run</em> window to launch applications? Honestly, I still open the Run prompt and type in <code class="highlighter-rouge">powerpnt</code>, <code class="highlighter-rouge">chrome</code>, <code class="highlighter-rouge">iexplore</code>, <code class="highlighter-rouge">appwiz.cpl</code>, <code class="highlighter-rouge">gpedit.msc</code>, etc. I don’t know why, but I like to launch stuff this way. My brother still stares at me when I launch Notepad by saying <code class="highlighter-rouge">notepad</code>. Of course, I do admit, using <code class="highlighter-rouge">Run</code> is kinda old-school in this age of voice control.</p>
+
+<p>Deviating a little bit, I remember one of my friends posting a comment on Facebook, when I updated my status about my progress with learning PowerShell, stating, “Oh, the new Command Prompt in Windows 7?” That’s a major misconception when it comes to PowerShell. I don’t blame him, for he isn’t into the Windows domain—he’s more of a (non-Microsoft) Cloud Backup guy, but what he said is a general misconception among people—they think PowerShell is the same as Command Prompt. Fact: it isn’t. We’ll discuss how, some other time.</p>
+
+<p>Coming back to using the Command Prompt, I ran a verbal mini-survey, on a bunch of my buddies from different domains, about their usage of the Command Prompt. Turns out, in the current environment, they “are very comfortable with the use of <code class="highlighter-rouge">CMD</code>” I smiled. They added that they use it “to find the IP address”; one of them even added, “so cool, huh!” Indeed! I thought for a second, had they known that they could simply type in <code class="highlighter-rouge">ip address</code> in their Chrome address bar, it could give them their IP address, would it then mean that they wouldn’t use the Command Prompt at all? I wouldn’t know unless I tell them this alternate way of finding their IP address which would seem “cooler”.</p>
+
+<p>Anyway, so that’s the outlook that common people have with the Command Prompt. There’s this another interesting thing one of my friends said, “Don’t you think it is like dumb to use the Command Prompt when you have your interface?” By that, she meant the Graphical User Interface. Well, I wouldn’t call it dumb to use the Command Prompt when you have your GUI—a simple example, your IP address. Finding the IP address using GUI isn’t a small task on Windows. This is how you do it: <code class="highlighter-rouge">Start\Control Panel\Network Connections\Local Area Connection\Properties\Internet Protocol (TCP/IP)\Properties</code>. Smart!</p>
+
+<p>Some of us have another opinion about the Command Prompt, that “it is dull”. Sure, agreed that it looks pretty dull with the black background and a grey foreground (no, it isn’t white—try it for yourself). The interface is pretty dull and geeky, but hey, it comes in handy when you don’t have to go all <code class="highlighter-rouge">Control Panel\bla-bla\bla-bla-bla\bla-bla-bla-bla...</code>!</p>
+
+<p>And some think it is “showing off” when we use the run prompt and type in <code class="highlighter-rouge">control</code> when we need to go to the Control Panel or <code class="highlighter-rouge">appwiz.cpl</code> when we, say, wanna uninstall <em>Citrix Receiver</em>? “Convenience”, that’s the word. Personally, I’m very comfortable with the keyboard and have a pretty good typing speed (thanks to QWERTY everywhere), and I use <em>a lot</em> of keyboard shortcuts. I love the keyboard and prefer using it instead of the touchpad to do a lot of stuff like this. Like say I wanna turn this part of the sentence to Consolas 10pt, font colour: 85% grey, opt not to check spelling or grammar, set the line spacing to single, set to “don’t hyphenate”, all I do is, press <code class="highlighter-rouge">Ctrl + Alt + C</code>! (Don’t try that yet, or you might get the © symbol; you need to manually configure this one, once, in Word, before you can get the result).</p>
+
+<p>And why am I writing this? Just to say that using the Command Prompt is an efficient thing to do when you need to get work done quickly, and its purpose is not to just check the IP address of your computer (and that there’s an alternative to that too). The Command Prompt or even the Run prompt is a great thing to have, when you need to launch specific programs, or even shut down a remote computer. Seriously! I’ll give you a short list of the cool things that you can do with the Command Prompt.</p>
+
+<p>Before that, I’ll narrate to you a situation that I got stuck in, one day. I had launched this Command Prompt window through Citrix <em>Web Interface</em> once to get a list of all the members (recursive) in a security group in our organisation. After this, I wanted to launch a session of <em>Excel</em> from the same server because the license had expired on my local machine. I re-launched the WI and thanks to some cookie crap in the current session of Internet Explorer (which I couldn’t close because there was another process running in the background), that the WI said, “invalid session” or something. I tried launching another session of IE, but that didn’t work either. Stuck? Nope! I switched to the Command Prompt Window, typed in <code class="highlighter-rouge">excel</code> and bingo!</p>
+
+<p>Alright, as promised, here are some of the cool general-use commands that you can use from the Run prompt:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Function</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">calc</code></td>
+      <td>Launch the Calculator</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">charmap</code></td>
+      <td>View the Character Map</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">chkdsk</code></td>
+      <td>Launch the Check Disk Utility</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">cmd</code></td>
+      <td>Launch the Command Prompt</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">control</code></td>
+      <td>Go to the Control Panel</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">timedate.cpl</code></td>
+      <td>Open the Date and Time Properties</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">cleanmgr</code></td>
+      <td>Launch the Disk Clean-up Utility</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">firefox</code></td>
+      <td>Launch Mozilla Firefox</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">fonts</code></td>
+      <td>Open the Fonts Folder</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">iexplore</code></td>
+      <td>Launch the Internet Explorer</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">logoff</code></td>
+      <td>Log out of Windows</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">moviemk</code></td>
+      <td>Launch the Movie Maker</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">mspaint</code></td>
+      <td>Launch Microsoft Paint</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">control netconnections</code></td>
+      <td>Open Network Connections</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">notepad</code></td>
+      <td>Launch the Notepad</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">osk</code></td>
+      <td>Launch the On-Screen Keyboard</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">perfmon</code></td>
+      <td>Launch the Performance Monitor</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">control printers</code></td>
+      <td>Open Printers and Faxes (under Control Panel)</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">mstsc</code></td>
+      <td>Launch the Remote Desktop application</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">control schedtasks</code></td>
+      <td>Open Scheduled Tasks</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">services.msc</code></td>
+      <td>Open Services</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">shutdown</code></td>
+      <td>Shut down the computer</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">msinfo32</code></td>
+      <td>View the System Information</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">taskmgr</code></td>
+      <td>Launch the Task Manager</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">explorer</code></td>
+      <td>Launch the Windows Explorer</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">magnify</code></td>
+      <td>Launch the Windows Magnifier</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">wmplayer</code></td>
+      <td>Launch the Windows Media Player</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">write</code></td>
+      <td>Open WordPad</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Oh, if you’re wondering how <code class="highlighter-rouge">explorer</code> could come in handy when you already have it running, imagine that you got the message that “Windows Explorer has encountered a problem and needs to shut down”! No, don’t panic! Just press <code class="highlighter-rouge">Ctrl + Shift + Esc</code> (<code class="highlighter-rouge">Ctrl + Alt + Delete</code> seems like a death command combination to some who’ve used the pre-XP versions of Windows. Both these combinations open the <em>Task Manager</em>) Oh, and trust me, nothing goes wrong by opening the Task Manager; unless you go to the <em>Processes</em> tab and kill some unrelated-but-very-important process that brings down the whole system. Opening the Task Manager <em>doesn’t kill the computer</em>, like some people think. If you’re scared to use the key combination (when Explorer is still running), right click on the <em>Taskbar</em> and select <code class="highlighter-rouge">Task Manager</code>.</p>
+
+<p>Now, click on <code class="highlighter-rouge">Run New Task</code>. You’ll now get the Run prompt; type in <code class="highlighter-rouge">explorer</code> and hit <code class="highlighter-rouge">Enter</code>. There, you have your beloved Windows Explorer in front of you—aww… look at those moist eyes on seeing the Taskbar again!</p>
+
+<p>Would you use the Command Prompt now?</p>
+
+<p>Cheers!</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

@@ -1,28 +1,100 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }} - Articles</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <title>Typo Demo - Articles</title>
+    <description>Everything tech from LOGO to Azure Cloud. But patience and baby steps, first. (Also, we’re still under construction.)</description>
     <link>
-    {{ site.url }}</link>
-    {% for post in site.posts %}
-      {% unless post.link %}
+    http://typo.midnightlamp.black</link>
+    
+      
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <title>Test post</title>
+        
+          <description>&lt;p&gt;This is a test post to test how PowerShell code works. Minim fugiat anim ex non et cupidatat ex ea ex veniam in exercitation cillum sunt reprehenderit ullamco quis. Adipisicing elit est adipisicing consectetur est ad ad et aute qui. Incididunt ut ipsum exercitation voluptate labore magna ullamco elit esse ex sint amet officia laboris elit cillum officia. Velit consectetur voluptate do proident voluptate voluptate officia dolor elit nulla pariatur consequat irure dolor sit nulla dolor.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 30 Mar 2017 13:58:00 +0530</pubDate>
         <link>
-        {{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        http://typo.midnightlamp.black/test-post</link>
+        <guid isPermaLink="true">http://typo.midnightlamp.black/test-post</guid>
       </item>
-      {% endunless %}
-    {% endfor %}
+      
+    
+      
+      <item>
+        <title>Why I Never Became a Billionaire…</title>
+        
+          <description>&lt;p&gt;You see, I’m a big man, perhaps. So many Nigerian princes have known me personally, who inherited loads and loads of wealth, BBC and other such giants have sponsored so many lotteries and I have won so many, but I never thought of claiming the money. I have always been about getting into social service (though I work for an IT services giant), and I love being around children who like to learn. I would like to be a founder of an educational society in future that would provide free education to people of any age. These billions of Great Britain Pounds would have helped me achieve my dream in months!&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 15 Sep 2014 15:12:00 +0530</pubDate>
+        <link>
+        http://typo.midnightlamp.black/why-i-never-became-billionaire</link>
+        <guid isPermaLink="true">http://typo.midnightlamp.black/why-i-never-became-billionaire</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Do you still CMD?</title>
+        
+          <description>&lt;p&gt;Hey there, long time no see! Yeah right, you and I both have a full time job that only gives us time enough to watch an episode of &lt;em&gt;Man vs Wild&lt;/em&gt;! Alright, I’ll get to the point.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 05 Jul 2014 15:55:00 +0530</pubDate>
+        <link>
+        http://typo.midnightlamp.black/do-you-still-cmd</link>
+        <guid isPermaLink="true">http://typo.midnightlamp.black/do-you-still-cmd</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>From LOGO to TouchDevelop (Part 2)</title>
+        
+          <description>&lt;p&gt;Zoom, a few years passed and we were probably a generation or two ahead of the computers back in 1997 now, and we had computers with Paint on them. As we memorised &lt;code class=&quot;highlighter-rouge&quot;&gt;Start\Programs\Accessories\Paint&lt;/code&gt;, we looked at the mouse on all the computers and were happy about it. Now all the computers were almost the same as… oh wait… Computer—1 had speakers this time and it was now called &lt;em&gt;Multimedia Computer&lt;/em&gt;! We remembered that hadn’t happened before the school closed for the summer in 1999! Oh wait, and what the hell was that thing that had a button which slid out a tray…&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 13 Jun 2014 12:00:00 +0530</pubDate>
+        <link>
+        http://typo.midnightlamp.black/from-logo-to-touchdevelop-part-2</link>
+        <guid isPermaLink="true">http://typo.midnightlamp.black/from-logo-to-touchdevelop-part-2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>From LOGO to TouchDevelop (Part 1)</title>
+        
+          <description>&lt;p&gt;I do not remember the first time I saw a computer. It was perhaps in my dad’s office in 1995. He had described a computer to be “a set of boxes that is capable of doing a lot of magic”. Well, how else could you define something like that to a five- or six-year-old kid who hadn’t yet seen one? The kid hadn’t known what a photocopier or a Xerox machine looked like either. The kid, at the time didn’t understand a thing when his dad, his mum and his uncle spoke about Telex and fax. The names seemed quite complicated to him and he thought them to be some of those magical &lt;em&gt;mantras&lt;/em&gt; that could let people do what they can’t on their own.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 12 Jun 2014 14:03:00 +0530</pubDate>
+        <link>
+        http://typo.midnightlamp.black/from-logo-to-touchdevelop-part-1</link>
+        <guid isPermaLink="true">http://typo.midnightlamp.black/from-logo-to-touchdevelop-part-1</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>The SMACk!</title>
+        
+          <description>&lt;p&gt;I was recently thinking about how to educate people like my uncle about crappy Facebook posts that force you to share stuff, and I figured, heck, why not write a letter to the Almighty himself! How many of you have &lt;em&gt;not&lt;/em&gt; seen posts that said, “Share this in 9 seconds to receive a good news; ignoring would entitle you to nine years of bad luck”?&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 26 Apr 2014 02:18:00 +0530</pubDate>
+        <link>
+        http://typo.midnightlamp.black/the-smack</link>
+        <guid isPermaLink="true">http://typo.midnightlamp.black/the-smack</guid>
+      </item>
+      
+    
   </channel>
 </rss>

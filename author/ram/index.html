@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>Typo Demo</title>
+    <title>Author</title>
     <meta name="description" content="Typo Demo - Everything tech from LOGO to Azure Cloud. But patience and baby steps, first. (Also, we’re still under construction.)" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -27,16 +27,26 @@
 
     <meta property="og:site_name" content="Typo Demo" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Typo Demo | Typo Demo" />
-    <meta property="og:description" content="Everything tech from LOGO to Azure Cloud. But patience and baby steps, first. (Also, we’re still under construction.)" />
-    <meta property="og:url" content="http://typo.midnightlamp.black/" />
-    <meta property="og:image" content="http://typo.midnightlamp.black/assets/images/cover1.jpg" />
+    <meta property="og:title" content="Author | Typo Demo" />
+    <meta property="og:description" content="{% if page.logo %}{% endif %} {% if page.navigation %} Menu {% endif %} {% if site.image %} {{ site.author }}'s Picture {% endif %} {{ site.author }} {% if site.bio %} {{ site.bio }} {% endif %} {% if..." />
+    <meta property="og:url" content="http://typo.midnightlamp.black/author/ram/" />
+    <meta property="og:image" content="http://typo.midnightlamp.black/assets/images/cover4.jpg" />
     <meta property="fb:app_id" content="}" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Typo Demo" />
-    <meta name="twitter:description" content="Everything tech from LOGO to Azure Cloud. But patience and baby steps, first. (Also, we’re still under construction.)" />
-    <meta name="twitter:url" content="http://typo.midnightlamp.black/" />
+    <meta name="twitter:title" content="Author" />
+    <meta name="twitter:description" content="
+
+
+
+
+
+
+    
+        
+            {% if page.logo %}{% endif %}
+         ..." />
+    <meta name="twitter:url" content="http://typo.midnightlamp.black/author/ram/" />
     <!--<meta name="twitter:image:src" content="http://typo.midnightlamp.black/assets/images/cover2.jpg" />-->
 
     
@@ -59,7 +69,7 @@
 
 
 </head>
-<body class="home-template nav-closed">
+<body class="author-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -67,14 +77,14 @@
         <span class="hidden">Close</span>
     </a>
     <ul>
-        <li class="nav-home  nav-current" role="presentation"><a href="/">Home</a></li>
+        <li class="nav-home " role="presentation"><a href="/">Home</a></li>
         <li class="nav-about " role="presentation"><a href="/about">About</a></li>
         <li class="nav-archive" role="presentation"><a href="/archive">Archive</a></li>
         <!--
         <li class="nav-speeches " role="presentation"><a href="/tag/speeches">Speeches</a></li>
         <li class="nav-fiction " role="presentation"><a href="/tag/fiction">Fiction</a></li>
         -->
-        <li class="nav-author " role="presentation"><a href="/author/ram">Author</a></li>
+        <li class="nav-author  nav-current" role="presentation"><a href="/author/ram">Author</a></li>
     </ul>
     <a class="subscribe-button icon-feed" href="/feed.xml">Subscribe</a>
 </div>
@@ -84,31 +94,60 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <!-- < default -->
+        <!-- < default}} -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- The big featured header  -->
-<header class="main-header "
-        style="background-image: url(/assets/images/cover1.jpg) ">
-    <nav class="main-nav overlay clearfix">
-        <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
+<!-- The big featured header -->
+
+<!-- Everything inside the #author tags pulls data from the author -->
+<!-- #author  -->
+    <header class="main-header author-head " style="background-image: url(/assets/images/cover4.jpg) ">
+        <nav class="main-nav overlay clearfix">
+            <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
+            
+                <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+            
+        </nav>
+    </header>
+
+    <section class="author-profile inner">
         
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        <figure class="author-image">
+            <div class="img" style="background-image: url(/assets/images/ram.png)"><span class="hidden">Ram Iyer's Picture</span></div>
+        </figure>
         
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">Typo Demo</h1>
-            <h2 class="page-description">Everything tech from LOGO to Azure Cloud. But patience and baby steps, first. (Also, we’re still under construction.)</h2>
+        <h1 class="author-title">Ram Iyer</h1>
+        
+            <h2 class="author-bio">Writer, PowerShell freak, philophobe, dreamer, and a typographer.</h2>
+        
+        <div class="author-meta">
+            <span class="author-location icon-location">Bangalore, KA</span>
+            <span class="author-link icon-link"><a href="http://ramiyer.me">ramiyer.me</a></span>
+            <!-- <span class="author-stats"><i class="icon-stats"></i> [[plural ../pagination.total empty='No posts' singular='% post' plural='% posts']]</span> -->
+            <span class="author-stats"><i class="icon-stats"></i>6 posts</span>
         </div>
-    </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-</header>
+        <div class="author-meta">
+          <span class="fa">
+  
+    <a href="https://www.twitter.com/theramiyer">
+      <i class="fa icon-twitter" aria-hidden="true"></i>@theramiyer
+    </a>
+  
+  
+    <a href="https://www.facebook.com/theramiyer">
+      <i class="fa icon-facebook" aria-hidden="true"></i>theramiyer
+    </a>
+  
+</span>
+
+        </div>
+    </section>
+<!-- /author -->
 
 <!-- The main content area on the homepage -->
 <main id="content" class="content" role="main">
 
-    <!-- The tag below includes the post loop - partials/loop.hbs -->
+    <!-- The tag below includes the post loop - partials/loop.hbs  -->
         <!-- Previous/next page links - only displayed on page 2+ -->
     <div class="extra-pagination inner">
         
@@ -116,7 +155,7 @@
     
     <span class="page-number"> Page 1 of 2 </span>
      
-        <a class="older-posts" href="/page2/" title="Next Page">Older Posts &raquo;</a>
+        <a class="older-posts" href="/author/ram/page2/" title="Next Page">Older Posts &raquo;</a>
      
 </nav>
         
@@ -252,7 +291,7 @@
     
     <span class="page-number"> Page 1 of 2 </span>
      
-        <a class="older-posts" href="/page2/" title="Next Page">Older Posts &raquo;</a>
+        <a class="older-posts" href="/author/ram/page2/" title="Next Page">Older Posts &raquo;</a>
      
 </nav>
     

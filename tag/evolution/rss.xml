@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>typo.midnightlamp.black</title>
+   
+   <link>http://typo.midnightlamp.black</link>
+   <description>Everything tech from LOGO to Azure Cloud. But patience and baby steps, first. (Also, we’re still under construction.)</description>
+   <language>en-in</language>
+   <managingEditor> Ram Iyer</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>From LOGO to TouchDevelop (Part 2)</title>
+	  <link>//from-logo-to-touchdevelop-part-2</link>
+	  <author>Ram Iyer</author>
+	  <pubDate>2014-06-13T12:00:00+05:30</pubDate>
+	  <guid>//from-logo-to-touchdevelop-part-2</guid>
+	  <description><![CDATA[
+	     <p>Zoom, a few years passed and we were probably a generation or two ahead of the computers back in 1997 now, and we had computers with Paint on them. As we memorised <code class="highlighter-rouge">Start\Programs\Accessories\Paint</code>, we looked at the mouse on all the computers and were happy about it. Now all the computers were almost the same as… oh wait… Computer—1 had speakers this time and it was now called <em>Multimedia Computer</em>! We remembered that hadn’t happened before the school closed for the summer in 1999! Oh wait, and what the hell was that thing that had a button which slid out a tray…</p>
+
+<p>We asked our computer teacher about it. He said “it is for a disc called a Compact Disc. A CD.” We didn’t know what it was back then. Then he showed it to us. Only some guys in the class were allowed to work on that computer (no, not me). That had something cool, called <code class="highlighter-rouge">Office</code>. It let us create documents like our text book, it had pictures that could move on their own, and other cool stuff like that. But then hey, we weren’t allowed to touch all that.</p>
+
+<p>By then we had also got <code class="highlighter-rouge">BASIC</code> in our school and we were being given lessons on it. <code class="highlighter-rouge">LOGO</code> was fun, but that could only create lines and move the turtle. But <code class="highlighter-rouge">BASIC</code> could do other cool stuff like calculations! And hey! Floppy Disks! Those days owning a Floppy Disk was a great deal! We used to hand-craft covers for it so as to protect it. They were in all different colours—red, blue, yellow, white, green, etc., apart from black (hey, Lumia?). I liked the black ones, though (duh) and so mine was a black one. It was ₹15–60 per disk those days, I guess. The hand-crafted covers were all cool with hand-drawn graphics on them and some of those had a Styrofoam lining inside. LOL</p>
+
+<p>They were all 3½″ disks. None of us owned a 5½″ disk those days, but there were a couple of them in the computer lab. They were pretty large and we were happy we didn’t have to use it—they could bend! Also, we imagined to have our school notes and text books loaded onto the floppy disks! Little we knew the following years when flash drives would be born and every common man would have one, with <em>way more</em> memory than a floppy disk.</p>
+
+<p>Anyway, those days were indeed great. It was fun.</p>
+
+<p>A couple of years later or so, we had computers with GUI on all computers, and all of them had Windows 98 in them, except Computer 1, which was to get Windows XP. We used to talk of touch screens like some sort of magic, in those days. We knew some enterprises and others had touch screens back then, and there were those “light pens” and all which helped users interact with computers, but we as kids hadn’t seen any of them. It was really difficult for us to imagine how the screens knew where the finger was! It would be difficult for us to imagine now how difficult it was back then to imagine what a touch screen looked like and how it worked, but yes, I remember it was tough to imagine all that back then. Hell, who had yet studied about resistance and capacitance yet in electronics! We were in the seventh grade or so back then. We learnt of basic electronics like the diode and all only in the 12<sup>th</sup> grade.</p>
+
+<p>We had then, read in the <em>Digit</em> magazine that there would be palmtops and other compact computers in the future. We had also learnt that they would be able to perform many tasks that though weren’t as complicated as normal computers those days (ha ha), but that they would be able to perform things like connecting to the Internet and communicate freely. Why, they said we could even edit presentations in them! Our teacher said they would cost around ₹15,000 (then $320) or so. It was big money for us students, but we did imagine getting those computers.</p>
+
+<p>And whoosh, more years passed!</p>
+
+<p>When I bought my first touch screen phone (Nokia 5233) in 2010, it was an evening of pure excitement. I went to Big Bazaar with my uncle—yes, the one mentioned in the last post: my computer uncle—and bought the piece of hardware. Wow, wasn’t it amazing when I had my own touchscreen smartphone! The response wasn’t as great as the phones of these days, given that it was a resistive touch screen, but it was still great. It did all that the palm computer that the magazine had promised—sent emails, captured pictures, facilitated Internet messaging (eBuddy, Nimbuzz, anyone?), allowed web browsing (Opera was great on Symbian), and all that—the price? ₹6,476 (about $140 then).</p>
+
+<p>Now when I look at my beautiful Lumia, with a smooth ultra-responsive capacitive touchscreen that works even with the gloves on, the beautiful metro graphics, and the strong Gorilla Glass™, I give those days an arrogant, but loving smirk. And, when I see that we can now program on our phones, I wonder if this was ever expected those days by a common man! I used a bit of TouchDevelop, went through the tutorial and downloaded the free e-book. Well I must say, aside from getting reminded of the turtle in <code class="highlighter-rouge">LOGO</code>, it was a moment of wonder, even for a semi-neek like me to see programming happening on a smartphone! Hello!</p>
+
+<p>I wonder where all this will go in the next generation (18 months as said by one of the big heads at Intel). Umm… fully aware creepy assistant? Automatic cab booking for the next flight I need to take? Automatic downloading of material for my next class on Cloud Technology? Prediction of the incentive we would get in the next fiscal year by judging the performance of the company I work for? Hmm… I would love all of that!</p>
+
+<p>For now, wishing to see Cortana and 3D touch soon on my Lumia, hope you have a great day!</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>From LOGO to TouchDevelop (Part 1)</title>
+	  <link>//from-logo-to-touchdevelop-part-1</link>
+	  <author>Ram Iyer</author>
+	  <pubDate>2014-06-12T14:03:00+05:30</pubDate>
+	  <guid>//from-logo-to-touchdevelop-part-1</guid>
+	  <description><![CDATA[
+	     <p>I do not remember the first time I saw a computer. It was perhaps in my dad’s office in 1995. He had described a computer to be “a set of boxes that is capable of doing a lot of magic”. Well, how else could you define something like that to a five- or six-year-old kid who hadn’t yet seen one? The kid hadn’t known what a photocopier or a Xerox machine looked like either. The kid, at the time didn’t understand a thing when his dad, his mum and his uncle spoke about Telex and fax. The names seemed quite complicated to him and he thought them to be some of those magical <em>mantras</em> that could let people do what they can’t on their own.</p>
+
+<p>During summers, I used to visit my granny’s with my parents (mostly mum, coz dad never got that long a leave—two months: you must be kidding me). My uncle (the one mentioned above) once took me to his office. When I was happy playing with a broken telephone dial at his assistant’s desk, which had now gotten replaced by a simpler-to-use interface—the buttons—my uncle called out from his cabin, “Kiddo, come in, I have something interesting to show you!”</p>
+
+<p>The moment I stepped in, I was confused—he ushered me to his computer! I didn’t know how it worked or I didn’t know what to do with it. He sat me down and told me that he’d loaded a game on it. I was partly excited, but majorly anxious. “What do I do to play?”</p>
+
+<p>“It is simple. Do you see these keys? These are the ones that will control your car…” and he gave me a short tutorial on how to drive it without hitting the barricades. It was Indy Car! I was fascinated! I felt that I was really behind the wheels, driving a race car! Come on! At that time, graphics didn’t really matter. I know it was a big deal for the designers back then to create something as amazing as that, which could run on a computer that had zero graphics card memory! But then it was just a DOS game as six-year-olds of today would say—hundred bucks say they don’t even know what DOS is.</p>
+
+<p>After a year or so, when I went to my uncle’s office again, I saw something called Windows 95. Well, that had cool things like screensavers which could play on while my uncle, aunt and I had lunch. I used to wait for the timeout so that the golden clock would appear on the screen and would actually tick! This time, he had another cool game on the computer: Dangerous Dave! It was amazing how the guy could jump and dodge fire. Simple, but looked a lot elegant—hey, everything was in colour! And then he had one more: Paratroopers! Wow, those days!</p>
+
+<p>A couple of years passed and we were in a different place—a remote one this time. We were in Kodinar in the Junagadh district of Gujarat. Dad was with Ambuja Cements Ltd., and his was a cool office. Someone there was talking about Windows 95 and how Windows 98 was better. I didn’t understand what that was. It was a big deal of a difference for the people out there at that time (now I know when I try to tell people how Windows 8.1 Update 1 is better than Windows 8). In school, we were made to sit in front of a computer for the first time—in the 3rd grade. My school’s computer lab was still the traditional DOS one, and everything had to be done with commands. Well, to say the least, we weren’t yet allowed to meddle with commands, so they would launch a session of <code class="highlighter-rouge">Logo</code> and hand over the computer to us. <code class="highlighter-rouge">Logo</code> was a program that helped kids build logic and understand basic programming concepts, with graphics (that’s all we knew back then). For people who want to learn more on this, <a href="https://en.wikipedia.org/wiki/Logo_(programming_language)">here it is on Wikipedia</a>.</p>
+
+<p>It was nice to have that turtle run around and do things. To us students, though <code class="highlighter-rouge">FD 60</code> and <code class="highlighter-rouge">RT 90</code> were all cool, there was something cooler! Computer 1 in the lab was one that had the mouse! I used to take pride telling some of my classmates (whose dads didn’t have computers at their desk yet) how the mouse is cool! It was epic, those days, to us kids.</p>
+
+<p>Zoom, a few years passed and we were probably a generation or two ahead of the computers back in 1997 now, and we had computers with Paint on them. As we memorised <code class="highlighter-rouge">Start\Programs\Accessories\Paint</code>, we looked at the mouse on all the computers and were happy about it. Now all the computers were almost the same as… oh wait… Computer 1 had speakers this time and it was now called <em>Multimedia Computer</em>! We remembered that it hadn’t happened before the school closed for the summer in 1999! Oh wait, and what the hell was that thing…</p>
+
+<p>To be continued…</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
